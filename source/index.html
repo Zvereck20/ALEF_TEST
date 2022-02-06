@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Тестовое задание на вакансию HTML-верстальщик в компании Alef Development.">
+  <title>Тестовое задание на вакансию HTML-верстальщик в компании Alef Development.</title>
+  <link rel="preload" href="fonts/OpenSans-Light.woff2" as="font">
+  <link rel="preload" href="fonts/OpenSans-Regular.woff2" as="font">
+  <link rel="preload" href="fonts/OpenSans-SemiBold.woff2" as="font">
+  <link rel="preload" href="fonts/OpenSans-Bold.woff2" as="font">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body class="body">
+
+  <header class="header">
+    <div class="container">
+      <a href="#" class="header__logo">logo</a>
+      <nav class="navigation">
+        <ul class="navigation__list">
+          <li class="navigation__item">
+            <a href="#" class="navigation__link">
+              <svg width="25" height="22" viewBox="0 0 25 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <use xlink:href="img/sprite.svg#pizza_icon"></use>
+              </svg>
+              <span class="visually-hidden">Профиль</span>
+            </a>
+          </li>
+          <li class="navigation__item">
+            <a href="#" class="navigation__link">
+              <svg width="25" height="22" viewBox="0 0 25 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <use xlink:href="img/sprite.svg#pizza_icon"></use>
+              </svg>
+              <span class="visually-hidden">Избранное</span>
+            </a>
+          </li>
+          <li class="navigation__item">
+            <a href="#" class="navigation__link">
+              <svg width="25" height="22" viewBox="0 0 25 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <use xlink:href="img/sprite.svg#pizza_icon"></use>
+              </svg>
+              <span class="visually-hidden">Корзина</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main">
+    <div class="container">
+      <h1 class="visually-hidden">Детская одежда</h1>
+      <section class="product-card">
+        <div class="product-card__img">
+          <img src="./img/play_boy.png" alt="Мальчик в пижаме" width="686" height="878">
+        </div>
+        <div class="product-card__information information">
+          <h2 class="information__heading">Пижама для девочек</h2>
+          <p class="information__art">Арт. 02765/46</p>
+          <div class="reviews">
+            <p class="reviews__text">Отзывы</p>
+            <div class="reviews__star star">
+              <ul class="star__list">
+                <li class="star__item">
+                  <svg width="25" height="22" viewBox="0 0 25 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <use xlink:href="img/sprite.svg#pizza_icon"></use>
+                  </svg>
+                </li>
+                <li class="star__item">
+                  <svg width="25" height="22" viewBox="0 0 25 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <use xlink:href="img/sprite.svg#pizza_icon"></use>
+                  </svg>
+                </li>
+                <li class="star__item">
+                  <svg width="25" height="22" viewBox="0 0 25 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <use xlink:href="img/sprite.svg#pizza_icon"></use>
+                  </svg>
+                </li>
+                <li class="star__item">
+                  <svg width="25" height="22" viewBox="0 0 25 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <use xlink:href="img/sprite.svg#pizza_icon"></use>
+                  </svg>
+                </li>
+                <li class="star__item">
+                  <svg width="25" height="22" viewBox="0 0 25 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <use xlink:href="img/sprite.svg#pizza_icon"></use>
+                  </svg>
+                </li>
+              </ul>
+            </div>
+            <a href="#" class="reviews__link">
+              <span>14 отзывов</span>
+              <svg width="25" height="22" viewBox="0 0 25 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <use xlink:href="img/sprite.svg#pizza_icon"></use>
+              </svg>
+            </a>
+          </div>
+          <div class="price">
+            <p class="price__total">800 ₽</p>
+            <p class="price__initial">1 500 ₽</p>
+            <a href="#" class="price__link">
+              <span class="visually-hidden">Добавить в корзину</span>
+              <svg width="25" height="22" viewBox="0 0 25 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <use xlink:href="img/sprite.svg#pizza_icon"></use>
+              </svg>
+            </a>
+            <div class="price__discount">
+              <ul class="discount__list">
+                <li class="discount__item">
+                  скидка -36%
+                </li>
+                <li class="discount__item">
+                  акция -20%
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="size">
+            <section placeholder="Выбрать размер">
+              <option value="S">S</option>
+              <option value="M">M</option>
+              <option value="L">L</option>
+              <option value="XL">XL</option>
+            </section>
+            <a href="#" class="size__link">
+              Определить размер
+            </a>
+          </div>
+          <div class="buy">
+            <div class="buy__number">
+              <button>+</button>
+              <span class="buy__number-quantity">0</span>
+              <button>-</button>
+            </div>
+            <button class="buy__button">Добавить в корзину</button>
+            <button class="buy__button">
+              <svg width="25" height="22" viewBox="0 0 25 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <use xlink:href="img/sprite.svg#pizza_icon"></use>
+              </svg>
+            </button>
+            <a href="#" class="buy__link">
+              Купить в 1 клик
+            </a>
+          </div>
+          <div class="information__links">
+            <ul class="links__list">
+              <li class="links__type">
+                <a href="#">
+                  <svg width="25" height="22" viewBox="0 0 25 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <use xlink:href="img/sprite.svg#pizza_icon"></use>
+                  </svg>
+                  Описание товара
+                </a>
+              </li>
+              <li class="links__type">
+                <a href="#">
+                  <svg width="25" height="22" viewBox="0 0 25 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <use xlink:href="img/sprite.svg#pizza_icon"></use>
+                  </svg>
+                  Доставка и возврат
+                </a>
+              </li>
+              <li class="links__type">
+                <a href="#">
+                  <svg width="25" height="22" viewBox="0 0 25 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <use xlink:href="img/sprite.svg#pizza_icon"></use>
+                  </svg>
+                  Способы оплаты
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="gallery">
+        <h2 class="visually-hidden"></h2>
+        <a href="" class="gallery__link"></a>
+        <div class="pictures">
+          <ul class="pictures__list">
+            <li class="pictures__type">
+              <a href="#">
+                <img src="./img/play_girl.png" alt="Играющаяся девочка" width="686" height="688">
+              </a>
+            </li>
+            <li class="pictures__type">
+              <a href="#">
+                <img src="./img/touch_girl.png" alt="Девочка держит игрушку" width="335" height="336">
+              </a>
+            </li>
+            <li class="pictures__type">
+              <a href="#">
+                <img src="./img/bear.png" alt="Плюшевый медведь" width="335" height="336">
+              </a>
+            </li>
+            <li class="pictures__type">
+              <a href="#">
+                <img src="./img/sit_girl.png" alt="Сидящая девочка" width="335" height="336">
+              </a>
+            </li>
+            <li class="pictures__type">
+              <a href="#">
+                <img src="./img/stay_girl.png" alt="Стоящая девочка" width="335" height="336">
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inform footer__inform--customer">
+        <h2>покупателям</h2>
+        <ul>
+          <li><a href="" class="footer__inform-link">Каталог</a></li>
+          <li><a href="" class="footer__inform-link">Акции</a></li>
+          <li><a href="" class="footer__inform-link">Бренды</a></li>
+        </ul>
+      </div>
+      <div class="footer__inform footer__inform--about">
+        <h2>о нас</h2>
+        <ul>
+          <li><a href="" class="footer__inform-link">О компании</a></li>
+          <li><a href="" class="footer__inform-link">Новости</a></li>
+          <li><a href="" class="footer__inform-link">Команда</a></li>
+        </ul>
+      </div>
+      <form class="subscription">
+        <h2>узнайте первыми о новинках и акциях</h2>
+        <label>
+          <span class="visually-hidden">E-mail</span>
+          <input type="email" placeholder="Адрес электронной почты" required>
+          <button type="reset" class="subscription__reset">
+            <svg width="25" height="22" viewBox="0 0 25 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <use xlink:href="img/sprite.svg#pizza_icon"></use>
+            </svg>
+          </button>
+        </label>
+        <button type="submit" class="subscription__button">
+          Подписаться
+        </button>
+      </form>
+    </div>
+  </footer>
+
+
+  <!-- <script src="js/script.js"></script> -->
+</body>
+
+</html>
